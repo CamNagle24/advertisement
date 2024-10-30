@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'AfacadFlux';
+    src: url("../fonts/Afacad_Flux/variable/AfacadFlux[slnt\,wght].ttf") format("truetype");
+}
+
+/* Container Items */
+.cover {
+    width: 336px;
+    height: 280px;
+    border: solid goldenrod 1px;
+    background: url("../images/Pen.jpg");
+    background-size: 100%;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title {
+    font-family: 'AfacadFlux';
+    font-size: 1.8em;
+    font-weight: 500;
+    color: goldenrod;
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    letter-spacing: 0.3px;
+}
+
+.text {
+    font-family: 'AfacadFlux';
+    font-size: 16px;
+    font-weight: 100;
+    color: #5e5e5e;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+    width: 800px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.one {
+    left: 5%;
+    top: 15%;
+}
+
+.two {
+    left: 5%;
+    top: 30%;
+}
+
+.three {
+    left: 5%;
+    top: 45%;
+}
+
+.link {
+    font-family: 'AfacadFlux';
+    font-size: 15px;
+    font-weight: 90;
+    color: white;
+    background: #939393;
+    letter-spacing: 0.1px;
+    display: block;
+    border: solid 2px goldenrod;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    transition: 1s;
+}
+
+.link:hover {
+    color: goldenrod;
+    border: solid 2px goldenrod;
+    background: white;
+    transition: 1s;
+}
